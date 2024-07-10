@@ -212,6 +212,10 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+.mail-icon {  
+  height: 2.01rem;
+}
+
 
 /* BUTTONS */
 
@@ -366,8 +370,8 @@ article .icon {
 
 .project-img {
   border-radius: 0.5rem;
-  width: 66%;
-  height: 66%;
+  width: 60%;
+  height: 60%;
 }
 
 .project-title {
@@ -438,7 +442,7 @@ article .icon {
 }
 
 .email-icon {
-  height: 2.5rem;
+  height: 2.2rem;
 }
 
 /* FOOTER SECTION */
