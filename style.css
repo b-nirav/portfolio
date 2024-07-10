@@ -365,9 +365,9 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 0.5rem;
+  width: 66%;
+  height: 66%;
 }
 
 .project-title {
@@ -375,9 +375,30 @@ article .icon {
   color: black;
 }
 
+.project-description {
+  margin: 1rem;
+  color: black;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+#projects .about-containers {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 66px; /* Adjust the gap as needed */
+}
+
+#projects .details-container {
+  width: 90%; /* Ensure each project container takes up the full width of the grid column */
+}
+
+@media (max-width: 768px) {
+  #projects .about-containers {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* CONTACT */
