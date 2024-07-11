@@ -150,7 +150,6 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -212,10 +211,10 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-.mail-icon {  
+
+.mail-icon {
   height: 2.01rem;
 }
-
 
 /* BUTTONS */
 
@@ -269,6 +268,7 @@ section {
 
 #about {
   position: relative;
+  margin-bottom: 24vh; /* Add space below the about section */
 }
 
 .about-containers {
@@ -298,7 +298,7 @@ section {
 }
 
 .details-container {
-  padding: 1rem; 
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -361,6 +361,8 @@ article .icon {
 
 #projects {
   position: relative;
+  min-height: fit-content;
+  margin-bottom: 12vh; /* Add space below the projects section */
 }
 
 .color-container {
@@ -391,7 +393,7 @@ article .icon {
 
 #projects .about-containers {
   display: grid;
-  grid-template-columns: repeat(2, 3fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 60px; /* Adjust the gap as needed */
 }
 
@@ -399,9 +401,9 @@ article .icon {
   width: 100%; /* Ensure each project container takes up the full width of the grid column */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   #projects .about-containers {
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -411,7 +413,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  min-height: fit-content;
 }
 
 .contact-info-upper-container {
