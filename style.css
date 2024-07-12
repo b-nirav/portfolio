@@ -215,11 +215,13 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-
+/* Removed
 .mail-icon {
-  height: 2.01rem;
+  cursor: pointer;
+  height: 2.0rem;
+  
 }
-
+*/
 /* BUTTONS */
 
 .btn-container {
